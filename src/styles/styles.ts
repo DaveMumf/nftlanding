@@ -27,17 +27,12 @@ export const Styles = createGlobalStyle`
         padding:0;
         border: 0;
         outline: 0;
-        //Fondo de la pagina
-        background: #aaa;
-        backgroundImage: "url(" + "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" + ")";
-        backgroundPosition: 'center';
-        backgroundSize: 'cover';
-        backgroundRepeat: 'no-repeat';
+        background: #004244;
         overflow-x: hidden;
     }
 
     a:hover {
-        color: #18216d;
+        color: #ffffff;
     }
 
     input,
@@ -63,7 +58,7 @@ export const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        color: #ffffff;
         font-size: 56px;
         line-height: 1.18;
 
@@ -77,7 +72,7 @@ export const Styles = createGlobalStyle`
     }
 
     p {
-        color: #18216d;
+        color: #ffffff;
         font-size: 21px;
         line-height: 1.41;
     }
@@ -89,10 +84,10 @@ export const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #ffffff;
 
         :hover {
-            color: #2e186a;
+            color: #ffffff;
         }
     }
 

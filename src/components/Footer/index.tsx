@@ -56,8 +56,8 @@ const Footer = ({ t }: any) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="mailto:hello@pixelhomies.com">
+                <Chat>{t("Let's Chat")}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
@@ -79,7 +79,7 @@ const Footer = ({ t }: any) => {
               </Large>
             </Col>
           </Row>
-          <Row justify="space-between">
+        {/*  <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
@@ -123,7 +123,8 @@ const Footer = ({ t }: any) => {
                 </LanguageSwitch>
               </LanguageSwitchContainer>
             </Col>
-          </Row>
+
+          </Row>*/}
         </Container>
       </FooterSection>
       <Extra>
@@ -149,7 +150,7 @@ const Footer = ({ t }: any) => {
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/pixelhomies_"
                 src="twitter.svg"
               />
               <SocialLink
@@ -160,12 +161,6 @@ const Footer = ({ t }: any) => {
                 href="https://medium.com/@lashakakabadze/"
                 src="medium.svg"
               />
-              <a href="https://www.buymeacoffee.com/adrinlol">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
             </FooterContainer>
           </Row>
         </Container>
