@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import image from "../jew.png";
+import image from "../nigger.gif";
 import { Switch, Route } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";

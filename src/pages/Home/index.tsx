@@ -15,7 +15,6 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const Home = () => {
 
   return (
-    <div style={{ backgroundImage: `url(${image})` }}>
     <Container>
       <ScrollToTop />
 
@@ -58,7 +57,7 @@ const Home = () => {
         content={ContactContent.text}
         id="contact"
      />
-*/}   </Container></div>
+*/}   </Container>
 
 );
 
