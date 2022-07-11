@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
-  background: rgb(000, 000, 000);
+  background: rgb(222, 000, 111);
   padding: 2.5rem 0;
 `;
 
@@ -30,7 +30,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const Extra = styled("section")`
-  background: rgb(000, 000, 000);
+  background: rgb(222, 111, 555);
   position: relative;
   width: 100%;
   margin-right: auto;
