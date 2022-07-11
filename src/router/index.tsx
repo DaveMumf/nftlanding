@@ -8,7 +8,7 @@ import { Styles } from "../styles/styles";
 
 const Router = () => {
   return (
-    <div style={{ backgroundImage: `url(${image})`, backgroundAttachment: 'fixed'}}>
+    <div style={{ backgroundImage: `url(${image})`, backgroundAttachment: 'fixed', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
     <Suspense fallback={null}>
       <Styles />
       <Switch>
@@ -23,8 +23,7 @@ const Router = () => {
           );
         })}
       </Switch>
-      <Footer />
-    </Suspense></div>
+      </Suspense></div>
   );
 };
 

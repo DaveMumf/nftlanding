@@ -18,31 +18,23 @@ const Home = () => {
     <Container>
       <ScrollToTop />
 
-      <ContentBlock
-        type="right"
-        title={IntroContent.title}
-        content={IntroContent.text}
-        icon="developer.svg"
-        id="intro"
-      />
+
       <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
+        icon="developer.svg"
       />
       <ContentBlock
         type="left"
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="graphs.svg"
+        icon="galery.gif"
         id="about"
       />
       <ContentBlock
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
+        icon="galery.gif"
         id="mission"
       />
       <ContentBlock

@@ -7,7 +7,7 @@ export const FooterSection = styled("footer")`
 `;
 
 export const Title = styled("h4")`
-  font-size: 22px;
+  font-size: 52px;
   text-transform: capitalize;
   color: #ffffff;
 
@@ -127,7 +127,7 @@ export const FooterContainer = styled("div")`
 `;
 
 export const Language = styled("h4")`
-  font-size: 22px;
+  font-size: 42px;
   text-transform: capitalize;
   color: #ffffff;
 
@@ -137,12 +137,12 @@ export const Language = styled("h4")`
 `;
 
 export const Label = styled("label")`
-  font-size: 22px;
+  font-size: 44px;
   text-transform: capitalize;
   color: #ffffff;
   display: block;
   margin-bottom: 2rem;
-  font-family: "Motiva Sans Bold", serif;
+  font-family: "m5x7", serif;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;

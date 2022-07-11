@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "P I X E L  H O M I E S",
+  "text": "PIXELHOMIES es una coleccion de 1000 personajes inspirados en la cultura mexicana. El precio por mint es de 0.015 ETH y seran lanzados en la red de Ethereum.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Porque PixelHomies",
+      "content": "Porque somos la coleccion mas pasada de huevos que existe.",
+      "icon": "carahomie.png"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Explicame de nuevo porque son los mejores?",
+      "content": "Porque que chingue a us madre el gorila.",
+      "icon": "carahomie.png"
     }
   ]
 }

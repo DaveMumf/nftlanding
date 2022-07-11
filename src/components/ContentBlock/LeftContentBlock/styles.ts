@@ -15,7 +15,9 @@ export const Content = styled("p")`
 
 export const ContentWrapper = styled("div")`
   position: relative;
-  max-width: 540px;
+  max-width: 100%;
+  border-style: dotted solid;
+  text-align: center;
 
   @media only screen and (max-width: 575px) {
     padding-top: 4rem;
@@ -29,14 +31,14 @@ export const ServiceWrapper = styled("div")`
 `;
 
 export const MinTitle = styled("h6")`
-  font-size: 15px;
+  font-size: 40px;
   line-height: 1rem;
   padding: 0.5rem 0;
   text-transform: uppercase;
-  color: #000;
-  font-family: "Motiva Sans Light", sans-serif;
+  color: #ffffff;
+  font-family: "m5x7", sans-serif;
 `;
 
 export const MinPara = styled("p")`
-  font-size: 13px;
+  font-size: 53px;
 `;

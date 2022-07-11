@@ -3,14 +3,14 @@ import { createGlobalStyle } from "styled-components";
 export const Styles = createGlobalStyle`
 
     @font-face {
-        font-family: "Motiva Sans Light";
-        src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
+        font-family: "m5x7";
+        src: url("/fonts/m5x7.ttf") format("truetype");
         font-style: normal;
     }
 
     @font-face {
-        font-family: "Motiva Sans Bold";
-        src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
+        font-family: "m5x7";
+        src: url("/fonts/m5x7.ttf") format("truetype");
         font-style: normal;
     }
 
@@ -18,7 +18,7 @@ export const Styles = createGlobalStyle`
     body,
     html,
     a {
-        font-family: 'Motiva Sans Light', sans-serif;
+        font-family: 'm5x7', sans-serif;
     }
 
 
@@ -57,13 +57,14 @@ export const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Motiva Sans Bold', serif;
+        font-family: 'm5x7', serif;
         color: #ffffff;
-        font-size: 56px;
-        line-height: 1.18;
+        font-size: 96px;
+        line-height: 0.90;
+        text-align: center;
 
         @media only screen and (max-width: 890px) {
-          font-size: 47px;
+          font-size: 27px;
         }
 
         @media only screen and (max-width: 414px) {
@@ -73,8 +74,8 @@ export const Styles = createGlobalStyle`
 
     p {
         color: #ffffff;
-        font-size: 21px;
-        line-height: 1.41;
+        font-size: 40px;
+        line-height: 1.00;
     }
 
     h1 {
@@ -102,7 +103,7 @@ export const Styles = createGlobalStyle`
     .ant-drawer-body {
         display: flex;
         flex-direction: column;
-        text-align: left;
+        text-align: center;
         padding-top: 1.5rem;
     }
 
