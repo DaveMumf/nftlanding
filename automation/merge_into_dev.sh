@@ -10,6 +10,8 @@ cd $DIR/..
 git fetch
 git checkout development &&
 git pull &&
+git merge --no-ff -m 'Merge $FEATURE_BRANCH into development' $FEATURE_BRANCH &&
+git push &&
 git checkout $FEATURE_BRANCH &&
 git merge -m 'Merge development into $FEATURE_BRANCH' development &&
 git push
