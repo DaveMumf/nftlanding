@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+FEATURE_BRANCH="{{FEATURE_BRANCH}}"
