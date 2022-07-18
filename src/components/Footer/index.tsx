@@ -50,32 +50,32 @@ const Footer = ({ t }: any) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+            <Col lg={6} md={6} sm={8} xs={8}>
+              <Language>{t("Contacto")}</Language>
+              <Large to="/">{t("Cuentanos algo")}</Large>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                {t(`Tienes preguntas? Contactanos.`)}
               </Para>
+            </Col>
+            <Col lg={6} md={6} sm={8} xs={8}>
+              <Title>{t("Politicas")}</Title>
+              <Large to="/" left="true">
+                {t("Foro")}
+              </Large>
+              <Large left="true" to="/">
+                {t("Merca")}
+              </Large>
               <a href="mailto:hello@pixelhomies.com">
-                <Chat>{t("Let's Chat")}</Chat>
+                <Chat>{t("Trucha Loco")}</Chat>
               </a>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/" left="true">
-                {t("Application Security")}
+            <Col lg={6} md={6} sm={8} xs={8}>
+              <Title>{t("Chambiemos")}</Title>
+              <Large left="true" to="/">
+                {t("Colaboraciones")}
               </Large>
               <Large left="true" to="/">
-                {t("Software Principles")}
-              </Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large left="true" to="/">
-                {t("Support Center")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Customer Support")}
+                {t("Proyectos")}
               </Large>
             </Col>
           </Row>
@@ -146,20 +146,16 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
-              <SocialLink
                 href="https://twitter.com/pixelhomies_"
-                src="twitter.svg"
+                src="twitter.png"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
+                href="https://www.instagram.com/pixelhomies/"
+                src="instagram.png"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
+                href="https://discord.gg/Fa5qNGHrQb"
+                src="discord.png"
               />
             </FooterContainer>
           </Row>

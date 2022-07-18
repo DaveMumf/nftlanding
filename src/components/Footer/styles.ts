@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
-  background: rgb(222, 000, 111);
+  background: rgba(88, 3, 173, 0.01)
   padding: 2.5rem 0;
 `;
 
@@ -10,6 +10,7 @@ export const Title = styled("h4")`
   font-size: 52px;
   text-transform: capitalize;
   color: #ffffff;
+  border-bottom: 1px solid #ffffff;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -18,7 +19,7 @@ export const Title = styled("h4")`
 
 export const NavLink = styled(Link)`
   display: block;
-  font-size: 1rem;
+  font-size: 3rem;
   margin-bottom: 0.625rem;
   transition: all 0.2s ease-in-out;
 
@@ -30,7 +31,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const Extra = styled("section")`
-  background: rgb(222, 111, 555);
+  background: rgba(35, 138, 108, 0);
   position: relative;
   width: 100%;
   margin-right: auto;
@@ -45,40 +46,40 @@ export const LogoContainer = styled("div")`
 
 export const Para = styled("div")`
   color: #ffffff;
-  font-size: 14px;
+  font-size: 38px;
   width: 70%;
 `;
 
 export const Large = styled(Link)<any>`
-  font-size: 16px;
-  color: #fff;
+  font-size: 38px;
+  color: #ffffff;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
   text-transform: capitalize;
-  line-height: 24px;
+  line-height: 48px;
   display: block;
   margin-bottom: 0.625rem;
   transition: all 0.3s ease-in-out;
   max-width: max-content;
 
   &:hover {
-    color: rgb(000, 000, 000);
+    color: rgb(255, 130, 92);
     text-underline-position: under;
     text-decoration: rgb(255, 130, 92) wavy underline;
   }
 `;
 
 export const Chat = styled("p")`
-  color: #ffffff;
+  color: #fbb500;
   max-width: fit-content;
-  border-bottom: 1px solid #18216d;
   cursor: pointer;
   margin-top: 1rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.6s ease-in-out;
 
   &:hover {
     border-bottom: 1px solid rgb(255, 130, 92);
     color: rgb(255, 130, 92);
+    text-decoration: rgb(255, 130, 92) wavy underline;
   }
 `;
 
@@ -127,17 +128,20 @@ export const FooterContainer = styled("div")`
 `;
 
 export const Language = styled("h4")`
-  font-size: 42px;
+  font-size: 52px;
   text-transform: capitalize;
   color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
+
   }
 `;
 
 export const Label = styled("label")`
-  font-size: 44px;
+  font-size: 52px;
   text-transform: capitalize;
   color: #ffffff;
   display: block;

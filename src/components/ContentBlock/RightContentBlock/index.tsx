@@ -28,7 +28,7 @@ const RightBlock = ({
   return (
     <RightBlockContainer>
       <Fade direction="right">
-        <Row justify="space-between" align="middle" id={id}>
+        <Row justify="center" align="middle" id={id}>
 {/*           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
@@ -50,7 +50,7 @@ const RightBlock = ({
               </ButtonWrapper>
             </ContentWrapper>
           </Col>*/}
-          <Col lg={11} md={11} sm={12} xs={24}>
+          <Col lg={100} md={100} sm={100} xs={100}>
             <SvgIcon src={icon} width="100%" height="100%" />
           </Col>
         </Row>
