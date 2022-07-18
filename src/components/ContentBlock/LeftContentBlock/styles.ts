@@ -16,7 +16,6 @@ export const Content = styled("p")`
 export const ContentWrapper = styled("div")`
   position: relative;
   max-width: 100%;
-  border-style: dotted solid;
   text-align: center;
 
   @media only screen and (max-width: 575px) {
@@ -32,8 +31,8 @@ export const ServiceWrapper = styled("div")`
 
 export const MinTitle = styled("h6")`
   font-size: 40px;
-  line-height: 1rem;
-  padding: 0.5rem 0;
+  line-height: 2rem;
+  padding: 1rem 0;
   text-transform: uppercase;
   color: #ffffff;
   font-family: "m5x7", sans-serif;
