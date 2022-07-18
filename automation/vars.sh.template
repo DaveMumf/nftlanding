@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Branch to use for git operations
+FEATURE_BRANCH="{{FEATURE_BRANCH}}"
