@@ -5,11 +5,11 @@ export const RightBlockContainer = styled("section")`
   padding: 8rem 0 8rem;
 
   @media only screen and (max-width: 1024px) {
-    padding: 8rem 0 8rem;
+    padding: rem 0 8rem;
   }
 
-  @media only screen and (max-width: 768px) {
-    padding: 4rem 0 3rem;
+  @media only screen and (max-width: 896px) {
+    padding: 1rem 0 1rem;
   }
 `;
 

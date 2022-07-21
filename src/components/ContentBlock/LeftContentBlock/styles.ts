@@ -30,7 +30,7 @@ export const ServiceWrapper = styled("div")`
 `;
 
 export const MinTitle = styled("h6")`
-  font-size: 40px;
+  font-size: 50px;
   line-height: 2rem;
   padding: 1rem 0;
   text-transform: uppercase;
@@ -39,5 +39,5 @@ export const MinTitle = styled("h6")`
 `;
 
 export const MinPara = styled("p")`
-  font-size: 53px;
+  font-size: 40px;
 `;

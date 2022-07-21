@@ -7,7 +7,7 @@ export const FooterSection = styled("footer")`
 `;
 
 export const Title = styled("h4")`
-  font-size: 52px;
+  font-size: 50px;
   text-transform: capitalize;
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
@@ -51,7 +51,7 @@ export const Para = styled("div")`
 `;
 
 export const Large = styled(Link)<any>`
-  font-size: 38px;
+  font-size: 40px;
   color: #ffffff;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
@@ -85,7 +85,7 @@ export const Chat = styled("p")`
 
 export const Empty = styled("div")`
   position: relative;
-  height: 53px;
+  height: 50px;
 `;
 
 export const FooterContainer = styled("div")`
@@ -128,7 +128,7 @@ export const FooterContainer = styled("div")`
 `;
 
 export const Language = styled("h4")`
-  font-size: 52px;
+  font-size: 50px;
   text-transform: capitalize;
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
@@ -141,7 +141,7 @@ export const Language = styled("h4")`
 `;
 
 export const Label = styled("label")`
-  font-size: 52px;
+  font-size: 50px;
   text-transform: capitalize;
   color: #ffffff;
   display: block;

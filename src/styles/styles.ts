@@ -18,7 +18,7 @@ export const Styles = createGlobalStyle`
     body,
     html,
     a {
-        font-family: 'm5x7', sans-serif;
+        font-family: 'm5x7';
     }
 
 
@@ -57,18 +57,18 @@ export const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'm5x7', serif;
+        font-family: 'm5x7';
         color: #ffffff;
-        font-size: 96px;
+        font-size: 90px;
         line-height: 0.90;
         text-align: center;
 
         @media only screen and (max-width: 890px) {
-          font-size: 27px;
+          font-size: 60px;
         }
 
         @media only screen and (max-width: 414px) {
-          font-size: 32px;
+          font-size: 60px;
         }
     }
 
@@ -97,7 +97,7 @@ export const Styles = createGlobalStyle`
     }
 
     .about-block-image svg {
-        text-align: center;
+        text-align: expand;
     }
 
     .ant-drawer-body {

@@ -10,7 +10,7 @@ export const StyledContainer = styled("div")<any>`
   border-top: ${(p) => (p.border ? "1px solid #CDD1D4" : "")};
 
   @media only screen and (max-width: 1024px) {
-    max-width: calc(100% - 68px);
+    max-width: calc(100% - 60px);
     padding: 0 30px;
   }
 
