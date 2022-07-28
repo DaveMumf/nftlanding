@@ -50,26 +50,11 @@ const Footer = ({ t }: any) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={6} md={6} sm={8} xs={8}>
+            <Col>
               <Language>{t("Contacto")}</Language>
               <Large to="/">{t("Cuentanos algo")}</Large>
-              <Para>
-                {t(`Tienes preguntas? Contactanos.`)}
-              </Para>
-            </Col>
-            <Col lg={6} md={6} sm={8} xs={8}>
-              <Title>{t("Politicas")}</Title>
-              <Large to="/" left="true">
-                {t("Foro")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Merca")}
-              </Large>
-              <a href="mailto:hello@pixelhomies.com">
-                <Chat>{t("Trucha Loco")}</Chat>
-              </a>
-            </Col>
-            <Col lg={6} md={6} sm={8} xs={8}>
+              </Col>
+            <Col>
               <Title>{t("Chambiemos")}</Title>
               <Large left="true" to="/">
                 {t("Colaboraciones")}
@@ -130,17 +115,17 @@ const Footer = ({ t }: any) => {
       <Extra>
         <Container border={true}>
           <Row
-            justify="space-between"
+            justify="center"
             align="middle"
-            style={{ paddingTop: "3rem" }}
+            style={{ paddingTop: "5rem" }}
           >
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="carahomie.png"
                   aria-label="homepage"
                   width="101px"
-                  height="64px"
+                  height="101px"
                 />
               </LogoContainer>
             </NavLink>

@@ -11,17 +11,21 @@ export const Title = styled("h4")`
   text-transform: capitalize;
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
+  text-align: center;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 375px) {
     padding: 1.5rem 0;
+    font-size: 50px;
+    text-align: center;
   }
 `;
 
 export const NavLink = styled(Link)`
   display: block;
   font-size: 3rem;
-  margin-bottom: 0.625rem;
+  margin-bottom: 5rem;
   transition: all 0.2s ease-in-out;
+
 
   &:hover,
   &:active,
@@ -42,12 +46,18 @@ export const Extra = styled("section")`
 export const LogoContainer = styled("div")`
   display: flex;
   position: relative;
+
+  @media screen and (max-width: 375px) {
+    width: center;
 `;
 
 export const Para = styled("div")`
   color: #ffffff;
   font-size: 38px;
   width: 70%;
+
+  @media screen and (max-width: 375px) {
+    text-align: center;
 `;
 
 export const Large = styled(Link)<any>`
@@ -89,7 +99,7 @@ export const Empty = styled("div")`
 `;
 
 export const FooterContainer = styled("div")`
-  max-width: 510px;
+  max-width: auto;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -107,12 +117,8 @@ export const FooterContainer = styled("div")`
     }
   }
 
-  @media screen and (max-width: 769px) {
-    width: auto;
-
-    a:not(:last-child) {
-      display: none;
-    }
+  @media screen and (max-width: 375px) {
+    width: center;
   }
 
   div {
@@ -134,8 +140,9 @@ export const Language = styled("h4")`
   border-bottom: 1px solid #ffffff;
 
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 375px) {
     padding: 1.5rem 0;
+    text-align: center;
 
   }
 `;

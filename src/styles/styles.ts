@@ -97,7 +97,7 @@ export const Styles = createGlobalStyle`
     }
 
     .about-block-image svg {
-        text-align: expand;
+        text-align: center;
     }
 
     .ant-drawer-body {
