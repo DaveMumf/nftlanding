@@ -10,11 +10,11 @@ export const Title = styled("h4")`
   font-size: 50px;
   text-transform: capitalize;
   color: #ffffff;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 7px solid #ffffff;
   text-align: center;
 
   @media screen and (max-width: 375px) {
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     font-size: 50px;
     text-align: center;
   }
@@ -40,7 +40,7 @@ export const Extra = styled("section")`
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 `;
 
 export const LogoContainer = styled("div")`
@@ -68,14 +68,22 @@ export const Large = styled(Link)<any>`
   text-transform: capitalize;
   line-height: 48px;
   display: block;
-  margin-bottom: 0.625rem;
+  margin-bottom: 4rem;
   transition: all 0.3s ease-in-out;
   max-width: max-content;
+  text-align: center;
 
   &:hover {
     color: rgb(255, 130, 92);
     text-underline-position: under;
     text-decoration: rgb(255, 130, 92) wavy underline;
+  }
+
+  @media screen and (max-width: 375px) {
+    padding: 0.2rem 0;
+    text-align: center;
+    padding-bottom 5rem;
+
   }
 `;
 
@@ -136,12 +144,13 @@ export const FooterContainer = styled("div")`
 export const Language = styled("h4")`
   font-size: 50px;
   text-transform: capitalize;
+  text-align: center;
   color: #ffffff;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 7px solid #ffffff;
 
 
   @media screen and (max-width: 375px) {
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     text-align: center;
 
   }

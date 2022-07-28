@@ -49,19 +49,14 @@ const Footer = ({ t }: any) => {
     <>
       <FooterSection>
         <Container>
-          <Row justify="space-between">
+          <Row justify="space-around">
             <Col>
               <Language>{t("Contacto")}</Language>
               <Large to="/">{t("Cuentanos algo")}</Large>
               </Col>
             <Col>
               <Title>{t("Chambiemos")}</Title>
-              <Large left="true" to="/">
-                {t("Colaboraciones")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Proyectos")}
-              </Large>
+              <Large to="/">{t("Colaboraciones")}</Large>
             </Col>
           </Row>
         {/*  <Row justify="space-between">
